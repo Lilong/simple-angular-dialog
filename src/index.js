@@ -64,8 +64,8 @@ function ngDialog ($document, $compile, $rootScope, $controller, $timeout, $q) {
              '<div style="display:flex;display:-webkit-flex;">' + text + '</div>' +
            '</div>' +
            '<div class="dialog-footer">' +
-             '<button class="button" ng-click="decline()">Cancel</button>' +
-             '<button class="button" ng-click="accept()">Submit</button>' +
+             '<button class="button" ng-click="decline()">取消</button>' +
+             '<button class="button" ng-click="accept()">确定</button>' +
            '</div>' +
          '</div>' +
        '</div>'
